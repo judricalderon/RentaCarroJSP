@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ridex</title>
+<link rel="stylesheet" href="css/makeup.css">
+<script src="js/logicaVista.js"></script>
+
+</head>
+<body>
+
+	<header class="header" data-header>
+		<div class="container">
+
+			<div class="overlay" data-overlay></div>
+
+			<a href="#" class="logo"> <img src="image/logo.svg" alt="Ridex logo">
+			</a>
+
+			<div class="header-actions">
+				<form action="ServletUsuario" method="post">
+					<button type="submit" class="btn user-btn" name="boton"
+						aria-label="Profile" value="consultarVehiculos">
+						<ion-icon name="person-outline"></ion-icon>
+						Rentar Carro
+					</button>
+				</form>
+
+
+				<form action="ServletEmpleado" method="post">
+					<button type="submit" class="btn user-btn" name="boton"
+						aria-label="Profile" value="irEmpleado">
+						<ion-icon name="person-outline"></ion-icon>
+						Ir a Empleado
+					</button>
+				</form>
+
+			</div>
+
+		</div>
+	</header>
+
+
+	<article>
+
+		<section class="section hero" id="home">
+			<div class="container">
+
+				<div class="hero-content">
+					<h2 class="h1 hero-title">La manera más facil de hacer un
+						contrato de arrendamiento</h2>
+
+					<p class="hero-text">Si vives en Bogotá y sus alrededores!</p>
+				</div>
+
+				<div class="hero-banner"></div>
+		</section>
+
+		<script type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
